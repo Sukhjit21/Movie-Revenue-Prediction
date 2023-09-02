@@ -24,3 +24,6 @@ The raw data comes with, as expected, 10,000 observations. Each observation repr
 As of right now, we have decided that there are multiple attributes that are irrelevant and will be dropped. This list is subject to change as we further curate our data and begin to build our model. These features are Tagline, Overview, Original Language, and Release Date. Title and ID won't be used for building the model or making predictions, but for the purpose of potentially identifying an observation, they will not be removed. The remaining 8 features (Genres, Vote Average, Vote Count, Popularity, Budget, Revenue, and Runtime) will more than likely help fit our model. The data will also need to be standardized as almost all features with a numerical measurement have different units. 
 
 ### First Model
+Our first model we applied was Linear Regression. We wanted to see how this model would map to our data. This model ended up being extremely inaccurate, leading us to decide on Neural Networks for our 2nd model instead.
+
+Analysis our testing MSE and training MSE, we see that the training MSE is 675697998806435.38 and the testing MSE is 3768517409013513169214405319052180911554560.00. The model is performing VERY poorly with data it has not been presented with before.
