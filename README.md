@@ -3,6 +3,8 @@
 ### Introduction
 For this project, we will be looking at the top 10,000 most popular movies from [TMDB](https://www.themoviedb.org/?language=en-AU). Our goal is to build a model that will predict the revenue of a movie based on key attributes including but not limited to budget, genres, & production company. You can access the Kaggle page for the raw data [here](https://www.kaggle.com/datasets/joebeachcapital/top-10000-most-popular-movies-from-imdb?resource=download). 
 
+## Methods
+
 ### Data Exploration
 The raw data comes with, as expected, 10,000 observations. Each observation represents a movie with **14** attributes/columns. The 14 attributes are as follows:
 1. ID: int64
@@ -29,8 +31,14 @@ Our first model we applied was Linear Regression. We wanted to see how this mode
 ### Second Model
 In our second model we used a Neural Network. This model is more appropriate as a weakness of the linear regression model was how many different variables existed, and the neural network is a remedy to that. THIS IS SUBJECT TO CHANGE AFTER WE GET RESULTS.
 
-### Analysis 
+## Results 
 
-Our training MSE was 675697998806435.38 and the testing MSE was 3768517409013513169214405319052180911554560.00. Overall, our model was extremely inaccurate, especially when dealing with data it had not been presented with before. Our testing MSE was several orders of magnitude higher than our training MSE. Normally, such a large gap between training and testing error would cause us to say our model is overfitted, however, due to the extremely high training error, we can conclude that our model significantly underfits the data and is not complex enough to satisfactorily explain the variance in our data set. This was not entirely unexpected, as our data has a large degree of variance, but we were curious to see how sufficiently a linear regression model would describe our dataset. We plan to further explore modeling the data using neural networks in order to find an appropriately fitting model.
+For our first model, the training MSE was 675697998806435.38 and the testing MSE was 3768517409013513169214405319052180911554560.00.
+
+## Discussion
+
+Overall, the first model was extremely inaccurate, especially when dealing with data it had not been presented with before. Our testing MSE was several orders of magnitude higher than our training MSE. Normally, such a large gap between training and testing error would cause us to say our model is overfitted, however, due to the extremely high training error, we can conclude that our model significantly underfits the data and is not complex enough to satisfactorily explain the variance in our data set. This was not entirely unexpected, as our data has a large degree of variance, but we were curious to see how sufficiently a linear regression model would describe our dataset. We plan to further explore modeling the data using neural networks in order to find an appropriately fitting model.
+
+## Conclusion
 
 Link to Jupyter Notebook: https://colab.research.google.com/drive/10KS-Uo2jpXwVNH4VSZtWGR0PHUbF888x?usp=sharing
