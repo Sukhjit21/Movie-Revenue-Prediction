@@ -26,6 +26,9 @@ As of right now, we have decided that there are multiple attributes that are irr
 ### First Model
 Our first model we applied was Linear Regression. We wanted to see how this model would map to our data. This model ended up being extremely inaccurate, leading us to decide on Neural Networks for our 2nd model instead.
 
+### Second Model
+In our second model we used a Neural Network. This model is more appropriate as a weakness of the linear regression model was how many different variables existed, and the neural network is a remedy to that. THIS IS SUBJECT TO CHANGE AFTER WE GET RESULTS.
+
 ### Analysis 
 
 Our training MSE was 675697998806435.38 and the testing MSE was 3768517409013513169214405319052180911554560.00. Overall, our model was extremely inaccurate, especially when dealing with data it had not been presented with before. Our testing MSE was several orders of magnitude higher than our training MSE. Normally, such a large gap between training and testing error would cause us to say our model is overfitted, however, due to the extremely high training error, we can conclude that our model significantly underfits the data and is not complex enough to satisfactorily explain the variance in our data set. This was not entirely unexpected, as our data has a large degree of variance, but we were curious to see how sufficiently a linear regression model would describe our dataset. We plan to further explore modeling the data using neural networks in order to find an appropriately fitting model.
