@@ -33,9 +33,24 @@ We have decided that there are multiple attributes that are irrelevant and will 
 In our second model, we used an Artificial Neural Network. This model is more appropriate as a weakness of the linear regression model was how many different variables existed, and the neural network is a remedy to that as one hot encoding helped interpret the different variables.
 
 ## Figures
+### Heatmap 
+![heatmap](https://github.com/Sukhjit21/Movie-Revenue-Prediction/assets/85320290/cd0b3934-53d4-4a4d-9b74-66594eb92bf8)
+### Scatterplots
+#### Revenue vs. Budget
+![rev_budget](https://github.com/Sukhjit21/Movie-Revenue-Prediction/assets/85320290/8dae725a-4342-4c64-a092-ad692655013a)
+#### Revenue vs Average Vote
+![rev_voteavg](https://github.com/Sukhjit21/Movie-Revenue-Prediction/assets/85320290/a73ed91a-9a86-4656-9f23-c574db752ee9)
+#### Revenue vs Vote Count
+![rev_votecount](https://github.com/Sukhjit21/Movie-Revenue-Prediction/assets/85320290/00fb46ea-0300-459d-bd25-fea6bf1c013f)
+#### Revenue vs Runtime
+![rev_runtime](https://github.com/Sukhjit21/Movie-Revenue-Prediction/assets/85320290/9e99e8ed-8686-4ab1-9018-543acba36d8d)
+#### Revenue vs Popularity
+![rev_pop](https://github.com/Sukhjit21/Movie-Revenue-Prediction/assets/85320290/d8d5ffe7-e195-4f9b-88ad-024b77fbf1f7)
+
+### Model MSE
+![model_mse](https://github.com/Sukhjit21/Movie-Revenue-Prediction/assets/85320290/a0d6cfc7-18e0-4aef-a795-0cff8c3a7ad3)
 
 ## Discussion
-
 ### Model 1
 Overall, the first model was extremely inaccurate, especially when dealing with data it had not been presented with before. Our testing MSE was several orders of magnitude higher than our training MSE. Normally, such a large gap between training and testing error would cause us to say our model is overfitted, however, due to the extremely high training error, we can conclude that our model significantly underfits the data and is not complex enough to satisfactorily explain the variance in our data set. This was not entirely unexpected, as our data has a large degree of variance, but we were curious to see how sufficiently a linear regression model would describe our dataset. We plan to further explore modeling the data using neural networks in order to find a more appropriately fitting model.
 
@@ -52,6 +67,17 @@ For our first model, the training MSE was 675697998806435.38 and the testing MSE
 Our second model had a training MSE of 28342867143426048.00 and the testing MSE
 
 ## Conclusion
+Overall, the project proved to be tough for all six of us. At times we definitely struggled with building a functional model, but working hands on with no strict limits turned out to be a great learning experience. Our MSE for both models was significantly higher than we hoped, but was not entirely unexpected, given that the data didn’t show many strong correlations: building an enhanced model for our data might have taken more time then we had for this class and was possibly outside of the scope for what we learned. With hindsight, we realized that we should have tried to reduce our loss by using hyperparameter tuning. This would’ve given us the best possible parameters, while saving us time from the hours we all spent building and training different models with different parameters. Additionally, we potentially could have had better results if we had limited how many independent variables we were considering when it came to predicting the success of a movie: eliminating more columns during preprocessing and as a result building more streamlined models could have led to more accurate predictions.
+
+Ultimately we were unable to discover the secret to making a successful movie, but diving into such a huge data set and working together to build multiple models from the ground up — beginning with preprocessing and then on to the models themselves — was a fantastic learning experience that left us more experienced and with an idea of what to do better next time.
+
+## Collaborators
+#### Rajveer Grewal
+#### Garrett Hilyer
+#### Olive Maunupau
+#### Ishan Moundi
+#### Siddhartha Sahasrabuddhe
+#### Sukhjit Singh
 
 #### Link to Jupyter Notebook
 https://colab.research.google.com/drive/10KS-Uo2jpXwVNH4VSZtWGR0PHUbF888x?usp=sharing
