@@ -64,7 +64,7 @@ Despite our poor results, the results of both models are somewhat plausible: it�
 #### Model 1
 For our first model, the training MSE was 675697998806435.38 and the testing MSE was 3768517409013513169214405319052180911554560.00.
 #### Model 2
-Our second model had a training MSE of 28342867143426048.00 and the testing MSE
+Our second model had a training MSE of 977043185467392.00 and the testing MSE was 6849642834690048.00.
 
 ## Conclusion
 Overall, the project proved to be tough for all six of us. At times we definitely struggled with building a functional model, but working hands on with no strict limits turned out to be a great learning experience. Our MSE for both models was significantly higher than we hoped, but was not entirely unexpected, given that the data didn’t show many strong correlations: building an enhanced model for our data might have taken more time then we had for this class and was possibly outside of the scope for what we learned. With hindsight, we realized that we should have tried to reduce our loss by using hyperparameter tuning. This would’ve given us the best possible parameters, while saving us time from the hours we all spent building and training different models with different parameters. Additionally, we potentially could have had better results if we had limited how many independent variables we were considering when it came to predicting the success of a movie: eliminating more columns during preprocessing and as a result building more streamlined models could have led to more accurate predictions.
