@@ -75,6 +75,7 @@ Ultimately we were unable to discover the secret to making a successful movie, b
 #### Rajveer Grewal
 #### Garrett Hilyer
 #### Olive Maunupau
+Helped brainstorm possible models to run and implemented our 2nd model to predict revenue using a neural network.
 #### Ishan Moundi
 #### Siddhartha Sahasrabuddhe
 #### Sukhjit Singh
