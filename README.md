@@ -12,14 +12,14 @@ The raw data comes with, as expected, 10,000 observations. Each observation repr
 3. Release Date: object
 4. **Genres**: object
 5. Original Language: object
-6. Vote Average: float64
-7. Vote Count: int64
+6. **Vote Average**: float64
+7. **Vote Count**: int64
 8. **Popularity**: float64
 9. Overview: object
 10. **Budget**: int64
 11. Production Company: object
 12. **Revenue**: int64
-13. Runtime: int64
+13. **Runtime**: int64
 14. Tagline: object (~30% null)
 
 ### Data Preprocessing
@@ -36,9 +36,9 @@ In our second model, we used an Artificial Neural Network. This model is more ap
 ### Heatmap 
 ![heatmap](https://github.com/Sukhjit21/Movie-Revenue-Prediction/assets/85320290/cd0b3934-53d4-4a4d-9b74-66594eb92bf8)
 ### Scatterplots
-#### Revenue vs. Budget
+#### Revenue vs Budget
 ![rev_budget](https://github.com/Sukhjit21/Movie-Revenue-Prediction/assets/85320290/8dae725a-4342-4c64-a092-ad692655013a)
-#### Revenue vs Average Vote
+#### Revenue vs Average Vote 
 ![rev_voteavg](https://github.com/Sukhjit21/Movie-Revenue-Prediction/assets/85320290/a73ed91a-9a86-4656-9f23-c574db752ee9)
 #### Revenue vs Vote Count
 ![rev_votecount](https://github.com/Sukhjit21/Movie-Revenue-Prediction/assets/85320290/00fb46ea-0300-459d-bd25-fea6bf1c013f)
