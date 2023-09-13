@@ -73,12 +73,14 @@ Ultimately we were unable to discover the secret to making a successful movie, b
 
 ## Collaborators
 #### Rajveer Grewal
+Helped with the direction of the project, first model implementation, scheduled meetings, and helped work on the ReadMe write-up.
 #### Garrett Hilyer
 #### Olive Maunupau
 Helped brainstorm possible models to run and implemented our 2nd model to predict revenue using a neural network.
 #### Ishan Moundi
 #### Siddhartha Sahasrabuddhe
 #### Sukhjit Singh
+Helped implement both the first and second models. Helped with the preprocessing of the second model. Polished the ReadMe write-up.
 
 #### Link to Jupyter Notebook
 https://colab.research.google.com/drive/10KS-Uo2jpXwVNH4VSZtWGR0PHUbF888x?usp=sharing
