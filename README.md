@@ -75,6 +75,7 @@ Ultimately we were unable to discover the secret to making a successful movie, b
 #### Rajveer Grewal
 Helped with the direction of the project, first model implementation, scheduled meetings, and helped work on the ReadMe write-up.
 #### Garrett Hilyer
+Helped distinguish relevant features and possible labels for prediction, data preprocessing, brainstormed 2nd model, and wrote/formatted the ReadMe write-up. 
 #### Olive Maunupau
 Helped brainstorm possible models to run and implemented our 2nd model to predict revenue using a neural network.
 #### Ishan Moundi
