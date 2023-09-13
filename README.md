@@ -80,6 +80,7 @@ Helped distinguish relevant features and possible labels for prediction, data pr
 Helped brainstorm possible models to run and implemented our 2nd model to predict revenue using a neural network.
 #### Ishan Moundi
 #### Siddhartha Sahasrabuddhe
+Helped with direction of project, planned out preprocessing, helped with second model implementation, wrote/edited the ReadMe write-up.
 #### Sukhjit Singh
 Helped implement both the first and second models. Helped with the preprocessing of the second model. Polished the ReadMe write-up.
 
